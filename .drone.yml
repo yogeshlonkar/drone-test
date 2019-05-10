@@ -2,3 +2,5 @@ opipeline:
   build:
     image: node:8.10-alpine
     commands: npm prune && npm install && npm test
+    when:
+      event: [ push ]
