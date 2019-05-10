@@ -1,0 +1,12 @@
+{
+  "name": "drone-test",
+  "version": "1.0.0",
+  "description": "drone test",
+  "main": "index.js",
+  "scripts": {
+    "preinstall": "node index.js",
+    "test": "node index.test.js"
+  },
+  "author": "Yogesh.Lonkar <lonkar.yogeshr@gmail.com>",
+  "license": "MIT"
+}
